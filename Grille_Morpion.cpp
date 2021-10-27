@@ -49,7 +49,7 @@ void GrilleMorpion::Depose_jeton() {
 			Affich_Grille();
 		}
 		else
-			printf("Indice de ligne ou de colonne incorrect. Veuillez recommencer:\n");
+			cout << ("Indice de ligne ou de colonne incorrect. Veuillez recommencer:\n");
 	} while (!saisieCorrecte);
 }
 
